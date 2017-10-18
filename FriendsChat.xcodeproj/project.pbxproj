@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		283F06AFE739555683D93B0C /* Pods_FriendsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36FFB45C119F5AD73364193 /* Pods_FriendsChat.framework */; };
+		7F5F5CAD1F97D7420039149F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F5CAC1F97D7420039149F /* Constants.swift */; };
+		7F5F5CAF1F97D99F0039149F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F5CAE1F97D99F0039149F /* LoginVC.swift */; };
 		7FCA15CE1F95587100D276E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCA15CD1F95587100D276E9 /* AppDelegate.swift */; };
 		7FCA15D31F95587100D276E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCA15D11F95587100D276E9 /* Main.storyboard */; };
 		7FCA15D51F95587100D276E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCA15D41F95587100D276E9 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		756D7B6F226C547BDCD118E1 /* Pods-FriendsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsChat/Pods-FriendsChat.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5F5CAC1F97D7420039149F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7F5F5CAE1F97D99F0039149F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		7FCA15CA1F95587100D276E9 /* FriendsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCA15CD1F95587100D276E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FCA15D21F95587100D276E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +61,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7F5F5CAB1F97D7290039149F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7F5F5CAC1F97D7420039149F /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		7FCA15C11F95587100D276E9 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +90,7 @@
 		7FCA15CC1F95587100D276E9 /* FriendsChat */ = {
 			isa = PBXGroup;
 			children = (
+				7F5F5CAB1F97D7290039149F /* Utilities */,
 				7FCA15E21F95717E00D276E9 /* Resurces */,
 				7FCA15E11F95592400D276E9 /* Model */,
 				7FCA15E01F95591E00D276E9 /* View */,
@@ -96,6 +109,7 @@
 			children = (
 				7FCA15E61F9576CB00D276E9 /* ChatVC.swift */,
 				7FCA15E81F9576DC00D276E9 /* ChannelVC.swift */,
+				7F5F5CAE1F97D99F0039149F /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FCA15E71F9576CB00D276E9 /* ChatVC.swift in Sources */,
+				7F5F5CAD1F97D7420039149F /* Constants.swift in Sources */,
+				7F5F5CAF1F97D99F0039149F /* LoginVC.swift in Sources */,
 				7FCA15CE1F95587100D276E9 /* AppDelegate.swift in Sources */,
 				7FCA15EC1F974CF200D276E9 /* GradientView.swift in Sources */,
 				7FCA15E91F9576DC00D276E9 /* ChannelVC.swift in Sources */,
